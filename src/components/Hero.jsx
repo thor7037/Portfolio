@@ -33,7 +33,7 @@ export function Hero(){
         <motion.div initial={{opacity:10, scale:.001}} animate={{opacity:10, scale:.8}} transition={{duration:1.6, delay:0.3}}>
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-violet-600 to-cyan-500 rounded-3xl blur opacity-30"></div>
-            <img className="relative rounded-3xl w-full object-cover ring-1 ring-white/10" src="src/Assets/self.jpeg" alt="Rahul Singh"/>
+            <img className="relative rounded-3xl w-full object-cover ring-1 ring-white/10" src="public/images/self.jpeg" alt="Rahul Singh"/>
           </div>
         </motion.div>
       </div>
