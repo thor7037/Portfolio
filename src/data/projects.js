@@ -24,7 +24,7 @@ export const projects = [
       'Added custom animations and gesture handling using React Native Reanimated.'
     ],
     tech: ['React Native','AsyncStorage','Hooks','Reanimated'],
-    image: 'src/Assets/kiwitask.png'
+    image: 'public/images/kiwitask.png'
   },
   {
     title: 'Kiwibuzz',
@@ -37,7 +37,7 @@ export const projects = [
       'Applied Redux and Context API for efficient state management.'
     ],
     tech: ['React Native','Firebase Storage','Firestore','Redux','Context API','React Native Paper'],
-    image: 'src/Assets/kiwibuzz.png'
+    image: 'public/images/kiwibuzz.png'
   },
   {
     title: 'Krisspi',
