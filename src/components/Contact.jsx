@@ -6,7 +6,7 @@ export function Contact(){
   const [status, setStatus] = useState('')
   const onSubmit = e => {
     e.preventDefault()
-    setStatus('Thanks! Your message has been queued. (Wire up EmailJS or Formspree to send emails.)')
+    setStatus('Thanks! Your message has been queued.')
   }
   return (
     <section id="contact" className="py-16">
