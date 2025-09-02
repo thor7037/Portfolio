@@ -16,7 +16,7 @@ export function Navbar(){
         <nav className="hidden sm:flex gap-6 text-sm">
           {links.map(l => <a key={l.href} href={l.href} className="hover:text-cyan-300">{l.label}</a>)}
         </nav>
-        <a className="text-sm badge" href="/assets/Rahul_ReactNative.pdf" download>Download Resume</a>
+        <a className="text-sm badge" href="https://thor7037.github.io/Portfolio/assets/Rahul_ReactNative.pdf" download>Download Resume</a>
       </div>
     </header>
   )
